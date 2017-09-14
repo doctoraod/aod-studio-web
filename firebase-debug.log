@@ -1,0 +1,79 @@
+[debug] [2017-09-14T09:57:32.883Z] ----------------------------------------------------------------------
+[debug] [2017-09-14T09:57:32.886Z] Command:       /Users/aod/.nvm/versions/node/v7.6.0/bin/node /Users/aod/.nvm/versions/node/v7.6.0/bin/firebase deploy
+[debug] [2017-09-14T09:57:32.886Z] CLI Version:   3.10.1
+[debug] [2017-09-14T09:57:32.886Z] Platform:      darwin
+[debug] [2017-09-14T09:57:32.886Z] Node Version:  v7.6.0
+[debug] [2017-09-14T09:57:32.887Z] Time:          Thu Sep 14 2017 16:57:32 GMT+0700 (+07)
+[debug] [2017-09-14T09:57:32.887Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-14T09:57:32.904Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-14T09:57:32.904Z] > authorizing via signed-in user
+[debug] [2017-09-14T09:57:32.906Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/aod-studio  
+ Thu Sep 14 2017 16:57:32 GMT+0700 (+07)
+[debug] [2017-09-14T09:57:34.229Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-14T09:57:34.230Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/aod-studio/tokens  
+ Thu Sep 14 2017 16:57:34 GMT+0700 (+07)
+[debug] [2017-09-14T09:57:35.343Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'aod-studio'...
+[info] 
+[info] i  deploying database, functions, hosting
+[info] ✔  database: rules ready to deploy.
+[debug] [2017-09-14T09:57:37.924Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "dependencies": {
+    "firebase-admin": "~5.2.1",
+    "firebase-functions": "^0.6.2"
+  },
+  "private": true
+}
+[info] i  functions: ensuring necessary APIs are enabled...
+[info] i  runtimeconfig: ensuring necessary APIs are enabled...
+[debug] [2017-09-14T09:57:37.925Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/aod-studio?view=CONSUMER_VIEW  
+ Thu Sep 14 2017 16:57:37 GMT+0700 (+07)
+[debug] [2017-09-14T09:57:37.925Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/aod-studio?view=CONSUMER_VIEW  
+ Thu Sep 14 2017 16:57:37 GMT+0700 (+07)
+[debug] [2017-09-14T09:57:39.594Z] <<< HTTP RESPONSE 200
+[warn] ⚠  functions: missing necessary APIs. Enabling now...
+[debug] [2017-09-14T09:57:39.595Z] >>> HTTP REQUEST PATCH https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/aod-studio?updateMask=usageSettings { usageSettings: { consumerEnableStatus: 'ENABLED' } } 
+ Thu Sep 14 2017 16:57:39 GMT+0700 (+07)
+[debug] [2017-09-14T09:57:39.605Z] <<< HTTP RESPONSE 200
+[info] ✔  runtimeconfig: all necessary APIs are enabled
+[debug] [2017-09-14T09:57:42.594Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-14T09:57:52.597Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/aod-studio?view=CONSUMER_VIEW  
+ Thu Sep 14 2017 16:57:52 GMT+0700 (+07)
+[debug] [2017-09-14T09:57:54.257Z] <<< HTTP RESPONSE 200
+[info] i  functions: waiting for APIs to activate...
+[debug] [2017-09-14T09:58:04.264Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/aod-studio?view=CONSUMER_VIEW  
+ Thu Sep 14 2017 16:58:04 GMT+0700 (+07)
+[debug] [2017-09-14T09:58:05.888Z] <<< HTTP RESPONSE 200
+[info] i  functions: waiting for APIs to activate...
+[debug] [2017-09-14T09:58:15.891Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/aod-studio?view=CONSUMER_VIEW  
+ Thu Sep 14 2017 16:58:15 GMT+0700 (+07)
+[debug] [2017-09-14T09:58:17.530Z] <<< HTTP RESPONSE 200
+[info] i  functions: waiting for APIs to activate...
+[debug] [2017-09-14T09:58:27.532Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/aod-studio?view=CONSUMER_VIEW  
+ Thu Sep 14 2017 16:58:27 GMT+0700 (+07)
+[debug] [2017-09-14T09:58:29.363Z] <<< HTTP RESPONSE 200
+[info] i  functions: waiting for APIs to activate...
+[debug] [2017-09-14T09:58:39.367Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/aod-studio?view=CONSUMER_VIEW  
+ Thu Sep 14 2017 16:58:39 GMT+0700 (+07)
+[debug] [2017-09-14T09:58:41.036Z] <<< HTTP RESPONSE 200
+[info] i  functions: waiting for APIs to activate...
+[debug] [2017-09-14T09:58:51.042Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/aod-studio?view=CONSUMER_VIEW  
+ Thu Sep 14 2017 16:58:51 GMT+0700 (+07)
+[debug] [2017-09-14T09:58:52.677Z] <<< HTTP RESPONSE 200
+[info] i  functions: waiting for APIs to activate...
+[debug] [2017-09-14T09:59:02.680Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/aod-studio?view=CONSUMER_VIEW  
+ Thu Sep 14 2017 16:59:02 GMT+0700 (+07)
+[debug] [2017-09-14T09:59:04.391Z] <<< HTTP RESPONSE 200
+[info] i  functions: waiting for APIs to activate...
+[debug] [2017-09-14T09:59:14.393Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/aod-studio?view=CONSUMER_VIEW  
+ Thu Sep 14 2017 16:59:14 GMT+0700 (+07)
+[debug] [2017-09-14T09:59:16.346Z] <<< HTTP RESPONSE 200
+[info] i  functions: waiting for APIs to activate...
+[debug] [2017-09-14T09:59:26.352Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/aod-studio?view=CONSUMER_VIEW  
+ Thu Sep 14 2017 16:59:26 GMT+0700 (+07)
+[debug] [2017-09-14T09:59:27.924Z] <<< HTTP RESPONSE 200
+[info] i  functions: waiting for APIs to activate...
