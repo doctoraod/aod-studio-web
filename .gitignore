@@ -2,7 +2,7 @@
 
 # dependencies
 /node_modules
-/functionsES6/node_modules
+/functionsES7/node_modules
 
 # testing
 /coverage
