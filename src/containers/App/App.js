@@ -33,7 +33,7 @@ class App extends Component {
           </div>
         </Content>
         <Footer style={{ textAlign: 'center' }}>
-          Aod Studio @ 2017 | By Suvichan Prasongphonchai | suvichan.pc@gmail.com
+          Aod Studio @ 2018 | By Suvichan Prasongphonchai | suvichan.pc@gmail.com
         </Footer>
       </Layout>
     );
