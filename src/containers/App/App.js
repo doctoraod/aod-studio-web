@@ -21,7 +21,7 @@ class App extends Component {
           >
             <Menu.Item key="1">Profile</Menu.Item>
             <Menu.Item key="2">Skill</Menu.Item>
-            <Menu.Item key="3">Project</Menu.Item>
+            <Menu.Item key="3">Projects</Menu.Item>
             <Menu.Item key="4">Experience</Menu.Item>
             <Menu.Item key="5">Gallery</Menu.Item>
           </Menu>
