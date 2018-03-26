@@ -17,3 +17,8 @@ Deploy
 ```
 yarn run deploy
 ```
+
+Hot to get firebase token
+```
+firebase login:ci
+```
