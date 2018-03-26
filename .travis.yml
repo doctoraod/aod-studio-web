@@ -1,0 +1,17 @@
+cache:
+  directories:
+  - node_modules
+language: node_js 
+node_js:
+  7 
+branches:
+  only: 
+  - master 
+script: 
+- npm run install:all
+- npm run build # build project
+install:
+  npm install -g firebase-tools 
+after_success:
+- firebase use --token ${FIREBASE_TOKEN} 
+- firebase deploy --non-interactive --token "${FIREBASE_TOKEN}" 

@@ -16,7 +16,7 @@ class App extends Component {
           <Menu
             theme="dark"
             mode="horizontal"
-            defaultSelectedKeys={['1']}
+            defaultSelectedKeys={['3']}
             style={{ lineHeight: '64px' }}
           >
             <Menu.Item key="1">Profile</Menu.Item>
