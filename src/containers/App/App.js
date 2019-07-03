@@ -16,7 +16,7 @@ class App extends Component {
           <Menu
             theme="dark"
             mode="horizontal"
-            defaultSelectedKeys={['3']}
+            defaultSelectedKeys={['1']}
             style={{ lineHeight: '64px' }}
           >
             <Menu.Item key="1">Profile</Menu.Item>
@@ -33,7 +33,7 @@ class App extends Component {
           </div>
         </Content>
         <Footer style={{ textAlign: 'center' }}>
-          Aod Studio @ 2018 | By Suvichan Prasongphonchai | suvichan.pc@gmail.com
+          Aod Studio @ 2019 | By Suvichan Prasongphonchai | suvichan.pc@gmail.com
         </Footer>
       </Layout>
     );
